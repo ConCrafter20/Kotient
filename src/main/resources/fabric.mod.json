@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "kotient",
+	"version": "${version}",
+	"name": "Kotient",
+	"description": "A Minecraft Client mod in Kotlin!",
+	"authors": [
+		"RaphtikGHG"
+	],
+	"contact": {
+		"homepage": "https://concrafter20.github.io/main",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/kotient/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "io.github.concrafter20.Kotient",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"kotient.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.2",
+		"java": ">=17",
+		"fabric-api": "*",
+		"fabric-language-kotlin": ">=1.9.10"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

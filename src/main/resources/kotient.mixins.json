@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "io.github.concrafter20.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"LoadWorldMixin",
+		"MainMenuMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
